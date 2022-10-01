@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./contact.css";
 import { HiMail } from "react-icons/hi";
 import { BsMessenger } from "react-icons/bs";
 import { BsDiscord } from "react-icons/bs";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_54tl038",
+      "template_t3s6rnt",
+      form.current,
+      "Ijx7pH-NbemkNa_ok"
+    );
+
+    e.target.reset();
+  };
+
   return (
     <section id="contact">
       <h5>Send meg en</h5>
@@ -39,7 +54,7 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="Navn"
