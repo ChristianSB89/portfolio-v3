@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio-v3/static/css/main.0388cda6.css",
-    "main.js": "/portfolio-v3/static/js/main.2bbbe65c.js",
+    "main.css": "/portfolio-v3/static/css/main.4456471f.css",
+    "main.js": "/portfolio-v3/static/js/main.6bbb80a0.js",
     "static/media/headshot.png": "/portfolio-v3/static/media/headshot.f79a0210d96f42c23134.png",
     "static/media/side-shot.png": "/portfolio-v3/static/media/side-shot.11d940c102b97eed10eb.png",
+    "static/media/map.png": "/portfolio-v3/static/media/map.21fa8d103fbd9e8caf18.png",
+    "static/media/dolingen_thumb.png": "/portfolio-v3/static/media/dolingen_thumb.836fc63efdb706cc0722.png",
+    "static/media/portfolio.png": "/portfolio-v3/static/media/portfolio.d0612e7cc4ba0c6dba82.png",
+    "static/media/drumkit.png": "/portfolio-v3/static/media/drumkit.bba804cfce130b33a893.png",
+    "static/media/nav-app.png": "/portfolio-v3/static/media/nav-app.daf6c12533dab3c33042.png",
+    "static/media/to-doList.png": "/portfolio-v3/static/media/to-doList.01923a9a1d7e37aa2301.png",
+    "static/media/minecraft-clone.png": "/portfolio-v3/static/media/minecraft-clone.fbaa8725a7d0ac4787fa.png",
     "static/media/cv.pdf": "/portfolio-v3/static/media/cv.ee83e027e2268ac34cb4.pdf",
     "index.html": "/portfolio-v3/index.html",
-    "main.0388cda6.css.map": "/portfolio-v3/static/css/main.0388cda6.css.map",
-    "main.2bbbe65c.js.map": "/portfolio-v3/static/js/main.2bbbe65c.js.map"
+    "main.4456471f.css.map": "/portfolio-v3/static/css/main.4456471f.css.map",
+    "main.6bbb80a0.js.map": "/portfolio-v3/static/js/main.6bbb80a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.0388cda6.css",
-    "static/js/main.2bbbe65c.js"
+    "static/css/main.4456471f.css",
+    "static/js/main.6bbb80a0.js"
   ]
 }
