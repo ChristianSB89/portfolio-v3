@@ -30,13 +30,6 @@ header {
   left: 0;
 }
 
-.header_socials::after {
-  content: "";
-  width: 1px;
-  height: 2rem;
-  background: var(--color-primary);
-}
-
 /* ============ ME ============ */
 
 .me {
@@ -49,17 +42,6 @@ header {
   border-radius: 0 10rem;
   overflow: hidden;
   padding: 2rem 0;
-}
-
-/* ============ SCROLL DOWN ============ */
-
-.scroll_down {
-  position: absolute;
-  right: -2.3rem;
-  bottom: 5rem;
-  transform: rotate(90deg);
-  font-weight: 700;
-  font-size: 0.9rem;
 }
 
 /* ============ MEDIA QUERIES (MEDIUM DEVICES) ============ */

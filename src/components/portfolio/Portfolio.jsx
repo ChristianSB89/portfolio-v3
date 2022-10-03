@@ -8,11 +8,6 @@ import PortfolioImg from "../../assets/portfolio.png";
 import ToDo from "../../assets/to-doList.png";
 import Minecraft from "../../assets/minecraft-clone.png";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import { Pagination } from "swiper";
-
 const data = [
   {
     id: 1,
@@ -80,7 +75,7 @@ const data = [
 ];
 const Portfolio = () => {
   return (
-    <section id="portfolio portfolio-default">
+    <section id="portfolio">
       <h5>Mine prosjekter</h5>
       <h2>Portefølje</h2>
 
