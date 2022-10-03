@@ -8,9 +8,11 @@ const Header = () => {
   return (
     <header>
       <div className="container header_container">
-        <h5>Hello I'm</h5>
+        <h5>Hei, mitt navn er</h5>
         <h1>Christian Sandum Breivik</h1>
-        <h5 className="text-light">Front End Developer</h5>
+        <h5 className="text-light">
+          Front End Utvikler | Grafisk designer | Illustratør
+        </h5>
         <CTA />
         <HeaderSocial />
         <div className="me">
@@ -18,7 +20,7 @@ const Header = () => {
         </div>
 
         <a href="#contact" className="scroll_down">
-          Scroll Down
+          Scroll helt ned
         </a>
       </div>
     </header>

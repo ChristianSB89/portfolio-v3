@@ -8,8 +8,8 @@ import { FaFolderOpen } from "react-icons/fa";
 const About = () => {
   return (
     <section id="about">
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h5>Bli kjent med meg</h5>
+      <h2>Om meg</h2>
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me-image">
@@ -20,23 +20,25 @@ const About = () => {
           <div className="about_cards">
             <article className="about_card">
               <FaGraduationCap className="about_icon" />
-              <h5>Experience</h5>
-              <small>10+ years graphic design 1+ year front end</small>
+              <h5>Erfaring</h5>
+              <small>
+                10+ år med grafisk design Front end siden april 2022
+              </small>
             </article>
             <article className="about_card">
               <FaUsers className="about_icon" />
-              <h5>Clients</h5>
-              <small>5+ locally</small>
+              <h5>Grafisk Design</h5>
+              <small>40+ fullførte prosjekter</small>
             </article>
             <article className="about_card">
               <FaFolderOpen className="about_icon" />
-              <h5>Projects</h5>
-              <small>20+ completed projects</small>
+              <h5>Front End Prosjekter</h5>
+              <small>20+ fullførte prosjekter</small>
             </article>
           </div>
 
           <p>
-            Heisann, jeg er PC entusiast og tech nerd. Under belte har jeg
+            Heisann, jeg er PC entusiast og tech nerd. Under beltet har jeg
             kunnskap om HTML, CSS, JavaScript, React, Photoshop, Illustrator,
             Blender og Figma. Jeg har alltid vært nysgjerrig på koding og har
             prøvd meg litt i Python. Etter mange timer med modifisering av spill
@@ -52,7 +54,7 @@ const About = () => {
           </p>
 
           <a href="#contact" className="btn btn-primary">
-            Let's Talk
+            Send meg en melding
           </a>
         </div>
       </div>

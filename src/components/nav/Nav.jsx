@@ -33,13 +33,13 @@ const Nav = () => {
       >
         <FaGraduationCap />
       </a>
-      <a
+      {/* <a
         href="#services"
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}
       >
         <MdDesignServices />
-      </a>
+      </a> */}
       <a
         href="#portfolio"
         onClick={() => setActiveNav("#portfolio")}

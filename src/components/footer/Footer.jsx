@@ -11,25 +11,23 @@ const Footer = () => {
       <img src={Logo} alt="CSB" className="footer_logo" />
       <ul className="permalinks">
         <li>
-          <a href="#">Home</a>
+          <a href="#">Hjem</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about">Om Meg</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#experience">Erfaring</a>
         </li>
+        <li>{/* <a href="#services">Tjenester</a> */}</li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#portfolio">Portefølje</a>
         </li>
+        {/* <li>
+          <a href="#testimonials">Tilbakemeldinger</a>
+        </li> */}
         <li>
-          <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">Kontakt</a>
         </li>
       </ul>
       <div className="footer_socials">
@@ -48,7 +46,9 @@ const Footer = () => {
       </div>
 
       <div className="footer_copyright">
-        <small>&copy; Christian Sandum Breivik All rights reserved</small>
+        <small>
+          &copy; Christian Sandum Breivik Alle rettigheter forbeholdt
+        </small>
       </div>
     </footer>
   );

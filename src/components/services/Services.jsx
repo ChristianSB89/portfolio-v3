@@ -5,8 +5,8 @@ import { BsCheck2Square } from "react-icons/bs";
 const Services = () => {
   return (
     <section id="services">
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h5>Hva jeg tilbyr</h5>
+      <h2>Tjenester</h2>
 
       <div className="container services_container">
         <article className="service">
@@ -43,7 +43,7 @@ const Services = () => {
         {/* END OF FRONT END */}
         <article className="service">
           <div className="service_head">
-            <h3>Graphic Design</h3>
+            <h3>Grafisk Design</h3>
           </div>
           <ul className="service_list">
             <li>
@@ -75,7 +75,7 @@ const Services = () => {
         {/* END OF GRAPHIC DESIGN */}
         <article className="service">
           <div className="service_head">
-            <h3>Content Creation</h3>
+            <h3>Innholdsproduksjon</h3>
           </div>
           <ul className="service_list">
             <li>

@@ -42,7 +42,7 @@ const Contact = () => {
               Send en direktemelding
             </a>
           </article>
-          <article className="contact_option">
+          {/* <article className="contact_option">
             <BsDiscord className="contact_option-icon" />
             <h4>Discord</h4>
             <h5>ChristianSB#7845</h5>
@@ -52,7 +52,7 @@ const Contact = () => {
             >
               Send meg en melding på serveren
             </a>
-          </article>
+          </article> */}
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input

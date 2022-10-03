@@ -1,0 +1,7 @@
+Original colors:
+  --color-bg: #5bafc0;
+  --color-bg-variant: #2d7d8d;
+  --color-primary: #a2e8f7;
+  --color-primary-variant: #43c7df;
+  --color-white: #fff;
+  --color-light: #d4f9ff;

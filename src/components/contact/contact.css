@@ -40,6 +40,12 @@
   color: var(--color-light);
 }
 
+::placeholder {
+  color: var(--color-light);
+  opacity: 70%;
+  font-family: "Ubuntu", sans-serif;
+}
+
 /* ============ FORM ============ */
 
 form {
