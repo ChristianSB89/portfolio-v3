@@ -15,14 +15,14 @@ const Experience = () => {
               <BsCheckSquareFill className="experience_details-icon" />
               <div>
                 <h4>HTML</h4>
-                {/* <small className="text-light">Intermeditate</small> */}
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="experience_details">
               <BsCheckSquareFill className="experience_details-icon" />
               <div>
                 <h4>CSS</h4>
-                {/* <small className="text-light">Intermeditate</small> */}
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="experience_details">
