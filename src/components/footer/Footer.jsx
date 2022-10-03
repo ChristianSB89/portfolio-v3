@@ -19,7 +19,7 @@ const Footer = () => {
         <li>
           <a href="#experience">Erfaring</a>
         </li>
-        <li>{/* <a href="#services">Tjenester</a> */}</li>
+        {/* <li><a href="#services">Tjenester</a></li> */}
         <li>
           <a href="#portfolio">Portefølje</a>
         </li>
