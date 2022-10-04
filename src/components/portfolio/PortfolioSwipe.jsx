@@ -9,7 +9,7 @@ import { Pagination } from "swiper";
 
 const PortfolioSwipe = () => {
   return (
-    <section id="portfolio portfolio-mobile">
+    <section id="portfolio" className="portfolio-mobile">
       <h5>Mine prosjekter</h5>
       <h2>Portefølje</h2>
 

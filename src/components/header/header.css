@@ -29,6 +29,7 @@ header {
 /* ============ HEADER SOCIALS ============ */
 
 .header_socials {
+  scale: 1.5;
   display: flex;
   flex-direction: column;
   align-items: center;

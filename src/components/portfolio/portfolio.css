@@ -32,9 +32,21 @@
   margin-bottom: 2rem;
 }
 
+.portfolio-mobile {
+  display: none;
+}
+
 /* ============ MEDIA QUERIES (MEDIUM DEVICES) ============ */
 
 @media screen and (max-width: 1024px) {
+  .portfolio-mobile {
+    display: contents;
+  }
+
+  .portfolio-default {
+    display: none;
+  }
+
   .portfolio_container {
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
@@ -47,6 +59,10 @@
   .portfolio_container {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+
+  .portfolio-mobile {
+    display: contents;
   }
 
   .portfolio-default {

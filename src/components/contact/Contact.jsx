@@ -1,8 +1,7 @@
 import React, { useRef } from "react";
 import "./contact.css";
-import { HiMail } from "react-icons/hi";
 import { BsMessenger } from "react-icons/bs";
-import { BsDiscord } from "react-icons/bs";
+import { FaTwitterSquare } from "react-icons/fa";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
@@ -26,15 +25,19 @@ const Contact = () => {
       <h2>Melding</h2>
       <div className="container contact_container">
         <div className="contact_options">
-          <article className="contact_option">
-            <HiMail className="contact_option-icon" />
-            <h4>Email</h4>
-            <h5>christiansandumbreivik@gmail.com</h5>
-            <a href="mailto:christiansandumbreivik@gmail.com" target="_blank">
-              Send en mail
+          <article className="contact_option twitter">
+            <FaTwitterSquare className="contact_option-icon" />
+            <h4>Twitter</h4>
+            <a
+              href="https://twitter.com/messages/compose?recipient_id=@ChrisSanBrei"
+              class="twitter-dm-button"
+              data-screen-name="@ChrisSanBrei"
+              target="_blank"
+            >
+              @ChrisSanBrei
             </a>
           </article>
-          <article className="contact_option">
+          <article className="contact_option messenger">
             <BsMessenger className="contact_option-icon" />
             <h4>Messenger</h4>
             <h5>Christian Sandum Breivik</h5>
@@ -42,17 +45,6 @@ const Contact = () => {
               Send en direktemelding
             </a>
           </article>
-          {/* <article className="contact_option">
-            <BsDiscord className="contact_option-icon" />
-            <h4>Discord</h4>
-            <h5>ChristianSB#7845</h5>
-            <a
-              href="https://discord.com/api/webhooks/1025858038831268010/WdF31mdEnoGgD4OGZ_toTOX8YL6Hu26LlrfV4XivtnhN45cG9_SQIv0rYoocCM_ahmyw"
-              target="_blank"
-            >
-              Send meg en melding på serveren
-            </a>
-          </article> */}
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input
@@ -60,13 +52,21 @@ const Contact = () => {
             name="Navn"
             placeholder="Navn og etternavn"
             required
+            className="name-box"
           />
-          <input type="email" name="Email" placeholder="Email" required />
+          <input
+            type="email"
+            name="Email"
+            placeholder="Email"
+            required
+            className="email-box"
+          />
           <textarea
             name="message"
             rows="7"
             placeholder="Skriv din melding"
             required
+            className="message-box"
           ></textarea>
           <button type="submit" className="btn btn-primary">
             Send melding

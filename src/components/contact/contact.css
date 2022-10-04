@@ -14,10 +14,17 @@
 .contact_option {
   background: var(--color-bg-variant);
   padding: 1.2rem;
-  border-radius: 1.2rem;
   text-align: center;
   border: 1px solid transparent;
   transition: var(--transition);
+}
+
+.twitter {
+  border-radius: 0 1.2rem;
+}
+
+.messenger {
+  border-radius: 1.2rem 0;
 }
 
 .contact_option:hover {
@@ -58,11 +65,21 @@ input,
 textarea {
   width: 100%;
   padding: 1.5rem;
-  border-radius: 0.5rem;
   background: transparent;
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: var(--color-light);
+}
+
+/* ============ ALTERNATE BORDER RADIUS ============ */
+
+.name-box,
+.message-box {
+  border-radius: 1rem 0;
+}
+
+.email-box {
+  border-radius: 0 1rem;
 }
 
 /* ============ MEDIA QUERIES (MEDIUM DEVICES) ============ */
