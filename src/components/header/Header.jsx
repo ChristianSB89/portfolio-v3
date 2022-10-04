@@ -10,7 +10,7 @@ const Header = () => {
     <header>
       <div className="container header_container">
         <img src={Logo} alt="csb logo" className="header_logo" />
-        <h5>Hei, mitt navn er</h5>
+        <h5>Hei, jeg heter</h5>
         <h1>Christian Sandum Breivik</h1>
         <h5 className="text-light">
           Front End Utvikler | Grafisk designer | Illustratør

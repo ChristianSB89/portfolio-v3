@@ -8,7 +8,7 @@ import { FaFolderOpen } from "react-icons/fa";
 const About = () => {
   return (
     <section id="about">
-      <h5>Bli kjent med meg</h5>
+      <h5>Finn ut mer</h5>
       <h2>Om meg</h2>
       <div className="container about_container">
         <div className="about_me">
