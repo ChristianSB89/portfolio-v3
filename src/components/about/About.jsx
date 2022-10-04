@@ -22,7 +22,8 @@ const About = () => {
               <FaGraduationCap className="about_icon" />
               <h5>Erfaring</h5>
               <small>
-                10+ år med grafisk design Front end siden april 2022
+                10+ år med grafisk design <br />
+                Front end siden april 2022
               </small>
             </article>
             <article className="about_card">

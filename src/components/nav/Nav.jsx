@@ -3,7 +3,7 @@ import "./nav.css";
 import { FaHome } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 import { FaGraduationCap } from "react-icons/fa";
-import { MdDesignServices } from "react-icons/md";
+// import { MdDesignServices } from "react-icons/md";
 import { RiGalleryFill } from "react-icons/ri";
 import { BsChatDotsFill } from "react-icons/bs";
 import { useState } from "react";
