@@ -34,8 +34,27 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
-  position: absolute;
-  left: 0;
+  position: fixed;
+  top: 30%;
+  left: 5%;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1.7rem 0.2rem;
+  gap: 0.8rem;
+  border-radius: 0 2rem;
+  backdrop-filter: blur(15px);
+}
+
+.header_socials a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 0 50%;
+  display: flex;
+  color: var(--color-light);
+  font-size: 1.1rem;
+}
+
+.header_socials a:hover {
+  background: rgba(0, 0, 0, 0.3);
 }
 
 /* ============ ME ============ */
