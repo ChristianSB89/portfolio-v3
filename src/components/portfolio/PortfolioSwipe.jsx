@@ -5,7 +5,7 @@ import { portfolioData } from "./portfolioData";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 
 const PortfolioSwipe = () => {
   return (
@@ -17,8 +17,13 @@ const PortfolioSwipe = () => {
         pagination={{
           dynamicBullets: true,
         }}
-        modules={[Pagination]}
+        modules={[Autoplay, Pagination]}
         spaceBetween={50}
+        loop={true}
+        autoplay={{
+          delay: 1500,
+          disableOnInteraction: false,
+        }}
         slidesPerView={1}
         className="container testimonials_container"
       >
