@@ -35,7 +35,7 @@ html {
 
 body {
   font-family: "Ubuntu", sans-serif;
-  background: var(--color-bg);
+  background: linear-gradient(-45deg, var(--color-bg-variant), var(--color-bg));
   color: var(--color-white);
   line-height: 1.7;
 }
