@@ -47,7 +47,8 @@ const Footer = () => {
 
       <div className="footer_copyright">
         <small>
-          &copy; Christian Sandum Breivik Alle rettigheter forbeholdt
+          Christian Sandum Breivik <br />
+          &copy; 2022
         </small>
       </div>
     </footer>
