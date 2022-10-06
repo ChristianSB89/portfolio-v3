@@ -78,6 +78,10 @@ header {
   header {
     height: 57rem;
   }
+  .header_socials {
+    margin: 0;
+    left: 0%;
+  }
 }
 
 /* ============ MEDIA QUERIES (SMALL DEVICES) ============ */
