@@ -10,6 +10,7 @@
   border-radius: 2rem 0;
   border: 1px solid transparent;
   transition: var(--transition);
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
 }
 
 .portfolio_item:hover {

@@ -24,6 +24,7 @@ header {
   display: flex;
   gap: 1.2rem;
   justify-content: center;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
 }
 
 /* ============ HEADER SOCIALS ============ */
@@ -70,6 +71,7 @@ header {
   border-radius: 0 10rem;
   overflow: hidden;
   padding: 2rem 0;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
 }
 
 /* ============ MEDIA QUERIES (MEDIUM DEVICES) ============ */
