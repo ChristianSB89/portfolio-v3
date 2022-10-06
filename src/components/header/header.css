@@ -35,6 +35,7 @@ header {
   align-items: center;
   gap: 0.8rem;
   position: fixed;
+  z-index: 2;
   top: 26.5%;
   left: 5%;
   background: rgba(0, 0, 0, 0.3);
