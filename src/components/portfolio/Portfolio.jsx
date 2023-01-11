@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio" className="portfolio-default">
       <h5>Mine prosjekter</h5>
-      <h2>Portefølje</h2>
+      <h2>Portfolio</h2>
 
       <div className="container portfolio_container">
         {portfolioData.map(
